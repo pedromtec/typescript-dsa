@@ -128,6 +128,8 @@ class LinkedList<T> {
       previousNode.next = previousNode.next!.next;
       this.#size--;
     }
+
+    return true;
   }
 }
 
